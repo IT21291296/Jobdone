@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="Desired_Job_Title">Desired Job Title</string>
+    <string name="Desired_Salary">Desired Salary</string>
+    <string name="Desired_location">Desired location</string>
+    <string name="Desired_Salary">Desired Salary</string>
+    <string name="post">post</string>
+    <string name="Companies">Companies</string>
+    <string name="jobs">jobs</string>
+    <string name="Salaries">Salaries</string>
+    <string name="post">post</string>
+    <string name="Events">Events</string>
+    <string name="Update">Update</string>
+    <string name="Delete">Delete</string>
+    <string name="My_Job_Panel">My Job Panel</string>
+    <string name="jobs">jobs</string>
+    <string name="Apply">Apply</string>
+
+
+</resources>
