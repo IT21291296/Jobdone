@@ -19,13 +19,7 @@ class MainActivity : AppCompatActivity() {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main)
 
-            comButton = findViewById(R.id.comButton)
 
-
-            comButton.setOnClickListener {
-                val intent = Intent(this, FetchingActivity::class.java)
-                startActivity(intent)
-            }
 
 
             jobBtn2 = findViewById(R.id.jobBtn2)
