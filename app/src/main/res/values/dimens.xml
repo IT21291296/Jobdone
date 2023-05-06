@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="question_MarginTop">80dp</dimen>
+    <dimen name="question_TextSize">28sp</dimen>
+    <dimen name="insert_button_marginTop">75dp</dimen>
+    <dimen name="getdata_button_marginTop">75dp</dimen>
+    <dimen name="display_jobName_txtSize">30sp</dimen>
+    <dimen name="fetch_layout_padding">16dp</dimen>
+    <dimen name="fetch_cardElevation">8dp</dimen>
+    <dimen name="fetch_cardCornerRadius">8dp</dimen>
+    <dimen name="fetch_layout_margin">8dp</dimen>
+</resources>

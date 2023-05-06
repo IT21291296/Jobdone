@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etjobName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Job Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etjobDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Job Description"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etjobReq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Requirements"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2D7B88"
+        android:text="Update Ad"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
