@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "66470904912",
+    "firebase_url": "https://jobdone-efa7c-default-rtdb.firebaseio.com",
+    "project_id": "jobdone-efa7c",
+    "storage_bucket": "jobdone-efa7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66470904912:android:174d3755bd639fab847d55",
+        "android_client_info": {
+          "package_name": "com.example.jobdone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66470904912-jgst5pg8ggdlpu9kb6ahuh94v66d8cps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3CQqGyQV9pFH1rbtR_5RkACmgaZkPQa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66470904912-jgst5pg8ggdlpu9kb6ahuh94v66d8cps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66470904912:android:fc7ac06dec11c051847d55",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66470904912-jgst5pg8ggdlpu9kb6ahuh94v66d8cps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3CQqGyQV9pFH1rbtR_5RkACmgaZkPQa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66470904912-jgst5pg8ggdlpu9kb6ahuh94v66d8cps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66470904912:android:3d364628b30cd199847d55",
+        "android_client_info": {
+          "package_name": "sayuru.job_done"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66470904912-jgst5pg8ggdlpu9kb6ahuh94v66d8cps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3CQqGyQV9pFH1rbtR_5RkACmgaZkPQa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66470904912-jgst5pg8ggdlpu9kb6ahuh94v66d8cps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

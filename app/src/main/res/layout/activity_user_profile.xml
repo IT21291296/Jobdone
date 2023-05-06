@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/te"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".UserProfile">
+
+    <TextView
+        android:id="@+id/jobDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/jobDonelayout_marginStart"
+        android:layout_marginTop="@dimen/jobDonelayout_marginTop"
+        android:layout_marginBottom="@dimen/jobDonelayout_marginBottom"
+        android:text="@string/JobDone"
+        android:textColor="#F2831B"
+        android:textSize="@dimen/jobDonetextSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/empEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/empEmaillayout_marginStart"
+        android:layout_marginTop="@dimen/empEmaillayout_marginTop"
+        android:layout_marginEnd="@dimen/empEmaillayout_marginEnd"
+        android:layout_marginBottom="@dimen/empEmaillayout_marginBottom"
+        android:ems="10"
+        android:hint="@string/empEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/empAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empGender" />
+
+    <EditText
+        android:id="@+id/empAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/empAddresslayout_marginStart"
+        android:layout_marginTop="@dimen/empAddresslayout_marginTop"
+        android:layout_marginEnd="@dimen/empAddresslayout_marginEnd"
+        android:layout_marginBottom="@dimen/empAddresslayout_marginBottom"
+        android:ems="10"
+        android:hint="@string/empAddress"
+        android:inputType="textPostalAddress"
+        app:layout_constraintBottom_toTopOf="@+id/empPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empEmail" />
+
+    <EditText
+        android:id="@+id/empPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/empPhonelayout_marginStart"
+        android:layout_marginTop="@dimen/empPhonelayout_marginTop"
+        android:layout_marginEnd="@dimen/empPhonelayout_marginEnd"
+        android:layout_marginBottom="@dimen/empPhonelayout_marginBottom"
+        android:ems="10"
+        android:hint="@string/empPhone"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/EmpEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empAddress" />
+
+    <EditText
+        android:id="@+id/empGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/empGenderlayout_marginStart"
+        android:layout_marginTop="@dimen/empGenderlayout_marginTop"
+        android:layout_marginEnd="@dimen/empGenderlayout_marginEnd"
+        android:layout_marginBottom="@dimen/empGenderlayout_marginBottom"
+        android:ems="10"
+        android:hint="@string/empGender"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/empEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empName" />
+
+    <EditText
+        android:id="@+id/empName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/empNamelayout_marginStart"
+        android:layout_marginTop="@dimen/empNamelayout_marginTop"
+        android:layout_marginEnd="@dimen/empNamelayout_marginEnd"
+        android:layout_marginBottom="@dimen/empNamelayout_marginBottom"
+        android:ems="10"
+        android:hint="@string/empName"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/empNametextSize"
+        app:layout_constraintBottom_toTopOf="@+id/empGender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/imageViewlayout_width"
+        android:layout_height="@dimen/imageViewlayout_height"
+        android:layout_marginTop="@dimen/imageViewlayout_marginTop"
+        android:layout_marginBottom="@dimen/imageViewlayout_marginBottom"
+        app:layout_constraintBottom_toTopOf="@+id/empName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MyJobPanel"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/imageView2layout_width"
+        android:layout_height="@dimen/imageView2layout_height"
+        android:layout_marginStart="@dimen/imageView2layout_marginStart"
+        android:layout_marginTop="@dimen/imageView2layout_marginTop"
+        android:layout_marginEnd="@dimen/imageView2layout_marginEnd"
+        android:layout_marginBottom="@dimen/imageView2layout_marginBottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/MyJobPanel"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_notifications_24" />
+
+    <Button
+        android:id="@+id/EmpEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/EmpEditlayout_marginBottom"
+        android:backgroundTint="#2D7B88"
+        android:text="@string/EmpEdit"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empPhone" />
+
+    <Button
+        android:id="@+id/MyJobPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/MyJobPanellayout_marginTop"
+        android:layout_marginBottom="@dimen/MyJobPanellayout_marginBottom"
+        android:backgroundTint="#2D7B88"
+        android:text="@string/MyJobPanel"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/AddJob"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AddJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/AddJoblayout_marginTop"
+        android:layout_marginBottom="@dimen/AddJoblayout_marginBottom"
+        android:backgroundTint="#2D7B88"
+        android:text="@string/AddJob"
+        android:textColor="#020202"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/MyJobPanel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

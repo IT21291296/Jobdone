@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login">Login</string>
+    <string name="Password">Password</string>
+    <string name="UserName">Email</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="name">Company Name</string>
+    <string name="email">E-mail</string>
+    <string name="Address2">Company Address</string>
+    <string name="phone">Phone</string>
+    <string name="ComSave">SAVE</string>
+    <string name="JobDone">Job Done</string>
+    <string name="gender">Gender</string>
+    <string name="Ename">User Name</string>
+    <string name="Eemail">E-mail</string>
+    <string name="Eaddress">Address</string>
+    <string name="Ephone">Phone</string>
+    <string name="ComEdit">EDIT</string>
+    <string name="button2">Post Add</string>
+    <string name="button3">View Applicants</string>
+    <string name="ComName">Company Name</string>
+    <string name="ComEmail">E-mail</string>
+    <string name="EmpSave">Save</string>
+    <string name="ComAddress">Company Address</string>
+    <string name="ComPhone">Phone</string>
+    <string name="Registration">Registration</string>
+    <string name="Email">E-mail</string>
+    <string name="Password2">Password</string>
+    <string name="signin">SINGIN</string>
+    <string name="Name">Name</string>
+    <string name="Phone">Phone</string>
+    <string name="ReEnterPassword">Re Enter Password</string>
+    <string name="empEmail">E-mail</string>
+    <string name="empAddress">Address</string>
+    <string name="empPhone">Phone</string>
+    <string name="empGender">Gender</string>
+    <string name="empName">User Name</string>
+    <string name="EmpEdit">EDIT</string>
+    <string name="AddJob">AddJob</string>
+    <string name="MyJobPanel">My Job Panel</string>
+    <string name="statusFilter">statusFilter</string>
+
+</resources>
