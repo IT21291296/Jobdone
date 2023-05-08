@@ -1,12 +1,12 @@
-package com.example.project1.activities
+package com.example.project1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.project1.R
 
-class UpDel : AppCompatActivity() {
+class Honav : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_up_del)
+        setContentView(R.layout.activity_honav)
     }
 }

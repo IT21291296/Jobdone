@@ -7,8 +7,10 @@
     android:background="@drawable/back6"
     app:layout_constrainedWidth="false"
     app:layout_constraintWidth="wrap_content"
-    tools:context=".activities.MainActivity"
+    tools:context=".MainActivity"
     >
+
+
 
     <Button
         android:id="@+id/jobBtn2"
